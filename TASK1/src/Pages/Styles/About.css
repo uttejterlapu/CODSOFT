@@ -1,0 +1,48 @@
+.content-main-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .person {
+        width: 400px;
+    }
+}
+
+.about {
+    padding: 50px;
+
+    h1 {
+        color: #FFE3CA;
+        text-align: right;
+    }
+}
+
+.content-about {
+    background-color: #f6f5f54a;
+    padding-inline: 20px;
+    padding-block: 20px;
+    border-radius: 12px;
+
+    p {
+        font-size: 15px;
+        margin: 0px;
+        color: #fff;
+    }
+}
+
+.person {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 575px) {
+    .content-main-about {
+        flex-direction: column;
+        .person {
+            width: 100%;
+        }
+    }
+    .about {
+        padding: 20px;
+
+    }
+}
